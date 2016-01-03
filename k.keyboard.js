@@ -1,9 +1,9 @@
 (function(window) {
-	"use strict";
+  "use strict";
 
-	window.k = window.k || {};
+  window.k = window.k || {};
 
-  window.k.key = function(keys, downCallback, upCallback) {
+	window.k.key = function(keys, downCallback, upCallback) {
     var keysDown = [];
 
     var press = function(e) {
