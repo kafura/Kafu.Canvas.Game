@@ -3,7 +3,7 @@
 
   window.k = window.k || {};
 
-	window.k.key = function(keys, downCallback, upCallback) {
+  window.k.key = function(keys, downCallback, upCallback) {
     var keysDown = [];
 
     var press = function(e) {
@@ -37,7 +37,7 @@
 
   window.k.key.KEY = {
     LEFT: 37,
-		UP: 38,
+    UP: 38,
     RIGHT: 39,
     DOWN: 40,
 
